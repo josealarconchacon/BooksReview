@@ -1,4 +1,4 @@
-export interface SetBookName {
+export interface SetBooksName {
   id: number;
   title: string;
   author: string;
