@@ -1,15 +1,15 @@
 .listing {
-  background: var(--accent-color);
+  margin-top: 50px;
+  /* background: var(--accent-color); */
   border-radius: 30px;
   padding-bottom: 30px;
   padding-top: 1px;
   padding-bottom: 1px;
   font-family: "Poppins", sans-serif;
-  background-color: #211f24;
+  background-color: #1b1226;
   color: #fff;
 }
 .listing-heading {
-  color: var(--primary-color);
   padding: 10px 20px 0 20px;
 }
 .listing-photo {
@@ -19,7 +19,8 @@
   border-radius: 30px 30px 0 0;
 }
 .listing-location {
-  padding: 10px 20px 20px 20px;
+  /* padding: 10px 20px 20px 20px; */
+  padding: 0 20px;
 }
 .listing-location::before {
   content: url("/assets/location-pin.svg") / "";
@@ -27,7 +28,7 @@
 
 section.listing a {
   padding-left: 20px;
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--primary-color);
 }
 section.listing a::after {

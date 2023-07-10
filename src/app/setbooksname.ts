@@ -7,5 +7,6 @@ export interface SetBooksName {
   categories: string;
   description: string;
   year: number;
+  price: number;
   availableUnits: number;
 }
