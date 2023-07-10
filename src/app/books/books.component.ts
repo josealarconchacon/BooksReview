@@ -17,7 +17,8 @@ import { SetBookName } from '../setbooksname';
       </div>
     </section>
     <section class="results">
-      <app-book-name></app-book-name>
+      <!-- adding a property binding to a component tag [..]="" -->
+      <app-book-name [bookName]="setbooksname"></app-book-name>
     </section>
   `,
   styleUrls: ['./books.component.css'],
@@ -36,4 +37,5 @@ export class BooksComponent {
     year: 2020,
     availableUnits: 23,
   };
+  setbooksname: any;
 }
